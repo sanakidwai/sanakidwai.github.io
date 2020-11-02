@@ -1,0 +1,116 @@
+body {
+    background-color: #ECE9E9;
+}
+
+p {
+    font-size: 1.25em;
+    color: #000000;
+}
+
+table {
+    width: 100%;
+    font-size: 1.25em;
+}
+
+td {
+    vertical-align: top;
+    padding-bottom: 2%;
+}
+
+.table-column {
+    width: 150px;
+}
+
+/* Headings */
+
+h1 { /* Website title */
+    font-size: 5em;
+    color: #60065D;
+}
+
+h2 { /* Page title */
+    font-size: 3em;
+    color: #AB2C2C;
+}
+
+h3 { /* Page subtitles */
+    font-size: 2em;
+    color: #000000;
+}
+
+h4 { /* Center menu */
+    font-size: 3em;
+    color: #000000;
+}
+
+h5 { /* Right menu */
+    font-size: 2em;
+    color: #000000;
+    margin-top: 1em;
+}
+
+/* Links */
+
+a {
+    text-decoration: none;
+    font-size: inherit;
+    color: inherit;
+}
+
+.menu:hover {
+    text-decoration: none;
+    color: #AB2C2C;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #088585;
+}
+
+.current {
+    color: #757373;
+}
+
+.highlighted-link {
+    color: #088585;
+}
+
+/* Divs */
+
+#header {
+    height: auto;
+    text-align: center;
+}
+
+#center-menu {
+    height: auto;
+    text-align: center;
+}
+
+#body {
+    margin: 0 10%;
+}
+
+#main-text {
+    float: left;
+    width: 70%;
+    text-align: justify;
+}
+
+#right-menu {
+    float: right;
+    width: 20%;
+    text-align: right;
+    border-left: 2px solid #60065D;
+}
+
+@media screen and (max-width: 600px) {
+    .column#main-text {
+        width: 100%;
+    }
+    .column#right-menu {
+        width: 100%;
+        text-align: center;
+        border: none;
+    }
+}
