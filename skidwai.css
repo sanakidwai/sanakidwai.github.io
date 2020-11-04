@@ -105,11 +105,11 @@ a:hover {
 }
 
 @media screen and (max-width: 600px) {
-    .column#main-text {
+    #main-text {
         width: 100%;
         text-align: left;
     }
-    .column#right-menu {
+    #right-menu {
         width: 100%;
         text-align: center;
         border: none;
