@@ -104,7 +104,7 @@ a:hover {
     border-left: 2px solid #60065D;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     #main-text {
         width: 100%;
         text-align: left;
