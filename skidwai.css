@@ -104,6 +104,22 @@ a:hover {
     border-left: 2px solid #60065D;
 }
 
+#address {
+    float: left;
+    width: 40%;
+    text-align: justify;
+}
+
+#myimage {
+    float: right;
+    width: 40%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 @media screen and (max-width: 600px) {
     #main-text {
         width: 100%;
@@ -112,5 +128,11 @@ a:hover {
         width: 100%;
         text-align: center;
         border: none;
+    }
+    #address {
+        width: 100%;
+    }
+    #myimage {
+        width: 100%;
     }
 }
