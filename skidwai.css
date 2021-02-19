@@ -106,18 +106,19 @@ a:hover {
 
 #address {
     float: left;
-    width: 40%;
+    width: 50%;
     text-align: justify;
 }
 
 #myimage {
-    float: right;
-    width: 40%;
+    float: left;
+    width: 50%;
 }
 
 img {
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
+    border-radius: 50%;
 }
 
 @media screen and (max-width: 600px) {
