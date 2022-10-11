@@ -47,6 +47,14 @@ h5 { /* Right menu */
     font-size: 2em;
     color: #000000;
     margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+h6 { /* Right menu */
+    font-size: 1.5em;
+    color: #a6a4a4;
+    margin-top: -1em;
+    margin-bottom: 1em;
 }
 
 /* Links */
@@ -62,16 +70,16 @@ a {
     color: #AB2C2C;
 }
 
-a:hover {
-    text-decoration: none;
-    color: #088585;
-}
-
 .current {
     color: #757373;
 }
 
 .highlighted-link {
+    color: #088585;
+}
+
+#home:hover {
+    text-decoration: none;
     color: #088585;
 }
 
@@ -98,10 +106,12 @@ a:hover {
 }
 
 #right-menu {
-    float: right;
+    /* float: right; */
     width: 20%;
     text-align: right;
     border-left: 2px solid #60065D;
+    position: fixed;
+    right: 10%;
 }
 
 #address {
