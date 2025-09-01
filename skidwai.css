@@ -7,6 +7,11 @@ p {
     color: #000000;
 }
 
+.cite {
+    padding-left: 36px;
+    text-indent: -36px;
+}
+
 table {
     width: 100%;
     font-size: 1.25em;
