@@ -29,6 +29,25 @@
     <!-- main text -->
     <div id = main-text>
         
+        <p><span id="email" class = highlighted-link></span>
+        <script> <!-- prevents scammers from picking up the email -->
+            (function() {
+                var e = 'sana' + '.' + 'kidwai' + '.' + '15';
+                var d = 'ucl' + '.' + 'ac' + '.' + 'uk';
+                var a = String.fromCharCode(64);
+                var link = document.createElement('a');
+                link.href = 'mailto:' + e + a + d;
+                link.textContent = e + a + d;
+                document.getElementById('email').appendChild(link);
+            })();
+        </script>
+        </p>
+        
+        <br>
+            
+        <p> <a href= "https://linkedin.com/in/sana-kidwai-7075b753"  class = highlighted-link>LinkedIn</a> </p>
+        
+        <!--
         <div id = myimage>
             <img src = "image.jpeg">
         </div>
@@ -40,6 +59,7 @@
             <br>
             
             <p> <a href= "https://linkedin.com/in/sana-kidwai-7075b753"  class = highlighted-link>LinkedIn</a> </p>
+        -->
         <!--
             <p> Fitzwilliam College,<br>
                 Storey's Way,<br>
@@ -48,7 +68,7 @@
                 United Kingdom
             </p>
         -->    
-        </div>
+    </div>
         
     </div>
     
